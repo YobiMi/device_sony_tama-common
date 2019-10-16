@@ -600,7 +600,6 @@ vendor/firmware/ipa_fws.mdt
 
 # IRQ balance
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
 
 # Key provision daemon
 vendor/bin/keyprovd
