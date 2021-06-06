@@ -96,6 +96,10 @@ ifeq ($(HOST_OS),linux)
 endif
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
 
+# Display
+MSM_VIDC_TARGET_LIST := sdm845 # Get the color format from kernel headers
+MASTER_SIDE_CP_TARGET_LIST := sdm845 # ION specific settings
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
