@@ -305,6 +305,7 @@ vendor/bin/ppd|8b60669c32f091dd5832579892c91dc3eb0e8130
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/lib/libdisp-aba.so|82d7a6706392f687abb77df6205e39224a5c5141
 vendor/lib/libdisplayqos.so|682f8ac9e13240bb57e3b15edd2d3edb4f4f67ce
+vendor/lib64/libtinyxml.so
 vendor/lib/vendor.display.color@1.0.so|640ab2b9c2f0077634ed74263c5558076d431203
 vendor/lib/vendor.display.color@1.1.so|732531bbea59f5c1a90f409350d290607189c47f
 vendor/lib/vendor.display.color@1.2.so|f1ea074c629f1fc27000efb44617f7e8386b12d4
