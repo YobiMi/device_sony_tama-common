@@ -145,6 +145,9 @@ ro.vendor.audio.soundtrigger.vop.adsp.level=10
 ro.vendor.audio.soundtrigger.training.level=60
 ro.vendor.audio.soundtrigger.hist.duration=1500
 
+# Printk
+persist.vendor.console.silent.config=1
+
 # Radio
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
