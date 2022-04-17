@@ -30,7 +30,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
     vendor/qcom/opensource/data-ipa-cfg-mgr \
     vendor/qcom/opensource/dataservices \
-    vendor/qcom/opensource/interfaces
+    vendor/qcom/opensource/interfaces \
+    vendor/qcom/opensource/commonsys/display  \
+    vendor/qcom/opensource/display
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -446,9 +448,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail_vendor \
     libavservices_minijail.vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
