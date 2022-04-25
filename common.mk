@@ -18,6 +18,18 @@ $(call inherit-product-if-exists, vendor/sony/tama-common/tama-common-vendor.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# Define CAF soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/bt \
+    hardware/qcom-caf/sdm845 \
+    hardware/qcom-caf/wlan \
+    vendor/qcom/opensource/commonsys-intf/display \
+    vendor/qcom/opensource/data-ipa-cfg-mgr \
+    vendor/qcom/opensource/dataservices \
+    vendor/qcom/opensource/interfaces \
+    vendor/qcom/opensource/commonsys/display  \
+    vendor/qcom/opensource/display
+    
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay 
