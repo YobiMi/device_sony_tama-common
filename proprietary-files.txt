@@ -279,13 +279,9 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib/libhdr_tm.so|af8f696556839ff13a523a478866064a537c8477
 vendor/lib64/libhdr_tm.so|5267cb8b791aecd6ef8ff64c5206935c5c6f1add
 
-# Display (SDM) - from PNX - RKQ1.200906.002
-vendor/lib/libsdedrm.so|b11f16f16cdeaecb492b7ff2274cc02bd604bf0f
+ # Display (SDM) - from LA.UM.9.8.r1-02700-SDM710.0
+vendor/lib/libsdedrm.so|879e53e83e367c96db5fa32f25eecf6526bdb359
 vendor/lib64/libsdedrm.so|5113b02d32b886281a790c8c323498195ec780f8
-
-# Display postprocessing - from PNX - RKQ1.200906.002
-vendor/bin/ppd|8b60669c32f091dd5832579892c91dc3eb0e8130
-vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 
 # Display (SDM) - from OnePlus6 - RKQ1.201217.002/2106301530
 vendor/lib/libqseed3.so|c328dd5713f5a5f0f081c803812f011eb5efdeef
@@ -302,6 +298,7 @@ vendor/lib64/libsdmextension.so|ddcc83174b5b6dbed08888002cd08674f907e777
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
 # Display postprocessing - from OnePlus6 - RKQ1.201217.002/2106301530
+vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/bin/hw/vendor.display.color@1.0-service|f953144ced6869e640ca67930cea6d63e38f0a0d
 vendor/bin/mm-pp-dpps|0445e221a376694bd2a24f65ae7dceb32173228f
 vendor/bin/ppd|8b60669c32f091dd5832579892c91dc3eb0e8130
