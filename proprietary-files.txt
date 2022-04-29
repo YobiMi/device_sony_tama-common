@@ -281,7 +281,7 @@ vendor/lib64/libhdr_tm.so|5267cb8b791aecd6ef8ff64c5206935c5c6f1add
 
  # Display (SDM) - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/lib/libsdedrm.so|879e53e83e367c96db5fa32f25eecf6526bdb359
-vendor/lib64/libsdedrm.so|5113b02d32b886281a790c8c323498195ec780f8
+vendor/lib64/libsdedrm.so|91b5dd629cafd39a48273fdb865d4ba89d4d4b6b
 
 # Display (SDM) - from OnePlus6 - RKQ1.201217.002/2106301530
 vendor/lib/libqseed3.so|c328dd5713f5a5f0f081c803812f011eb5efdeef
