@@ -168,3 +168,5 @@ persist.vendor.sensors.direct_channel=false
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+
+#exer
