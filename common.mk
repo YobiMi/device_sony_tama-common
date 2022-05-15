@@ -29,7 +29,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/interfaces \
     vendor/qcom/opensource/commonsys/display  \
     vendor/qcom/opensource/display
-    
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -134,6 +134,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
+    audio.primary.sdm845 \
     audio.r_submix.default \
     audio.usb.default \
     libcirrusspkrprot \
@@ -173,7 +174,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor
+    vendor.qti.hardware.btconfigstore@1.0.vendor 
 
 # Boot control
 PRODUCT_PACKAGES += \
@@ -450,17 +451,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor \
-    libavservices_minijail \
-    libavservices_minijail_vendor \
-    libavservices_minijail.vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
