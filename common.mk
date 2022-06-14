@@ -25,6 +25,16 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Overlays
+PRODUCT_PACKAGES += \
+    SDM845Bluetooth \
+    SDM845Frameworks \
+    SDM845Settings \
+    SDM845SettingsProvider \
+    SDM845SystemUI \
+    SDM845WifiOverlay \
+    SDM845Tethering
+
 # A/B
 AB_OTA_UPDATER := true
 
@@ -378,14 +388,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/pixel
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
-
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
@@ -411,7 +413,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
