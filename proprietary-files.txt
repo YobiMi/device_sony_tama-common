@@ -1071,10 +1071,6 @@ vendor/firmware/tzwvcpybuf.b06
 vendor/firmware/tzwvcpybuf.b07
 vendor/firmware/tzwvcpybuf.mdt
 
-# WiFi
-vendor/bin/cnss-daemon
-vendor/bin/cnss_diag
-
 # WiFi Display - from PNX - RKQ1.200906.002
 vendor/lib/libFileMux_proprietary.so|e59edd4604a7c73147118161cab5b7ac6bb16c82
 vendor/lib/libmmosal.so|57185feced72009af2df1b09117702c9fae7182b
