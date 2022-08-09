@@ -1,0 +1,6 @@
+#####################################
+# hal_attribute_404(hal_name)
+define(`hal_attribute_404', ` attribute hal_$1; expandattribute hal_$1 
+true; attribute hal_$1_client; expandattribute hal_$1_client true; 
+attribute hal_$1_server; expandattribute hal_$1_server false;
+')
