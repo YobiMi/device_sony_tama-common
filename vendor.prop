@@ -156,6 +156,3 @@ persist.vendor.radio.procedure_bytes=SKIP
 
 # Sensors
 persist.vendor.sensors.direct_channel=false
-
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
