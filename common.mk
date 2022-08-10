@@ -297,6 +297,8 @@ PRODUCT_PACKAGES += \
 ## QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     usb \
+    av \
+    wfd \
     display \
     telephony \
     perf \
