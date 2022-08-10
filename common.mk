@@ -190,19 +190,9 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.3-service \
-    android.hardware.graphics.mapper@2.0-impl-qti-display \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
-    gralloc.sdm845 \
-    hwcomposer.sdm845 \
-    libdisplayconfig.qti \
-    libqdMetaData \
     libtinyxml \
-    memtrack.sdm845 \
-    vendor.display.config@1.0.vendor \
-    vendor.display.config@2.0 \
-    vendor.qti.hardware.display.allocator@1.0-service
+    libvulkan \
+    libtinyxml.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -258,10 +248,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.sony_sdm845 \
@@ -313,6 +299,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
     netutils-wrapper-1.0
+
+## QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    usb \
+    display
 
 # Neural networks
 PRODUCT_PACKAGES += \
