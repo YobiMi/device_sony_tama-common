@@ -137,7 +137,6 @@ ro.vendor.audio.soundtrigger.training.level=60
 ro.vendor.audio.soundtrigger.hist.duration=1500
 
 # Radio
-DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 persist.vendor.radio.apm_sim_not_pwdn=0
@@ -154,7 +153,6 @@ persist.vendor.radio.oem_socket=true
 persist.vendor.radio.report_codec=1
 persist.vendor.radio.ims_call_transfer=true
 persist.vendor.radio.procedure_bytes=SKIP
-telephony.lteOnCdmaDevice=0
 
 # Sensors
 persist.vendor.sensors.direct_channel=false
