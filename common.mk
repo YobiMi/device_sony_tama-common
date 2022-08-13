@@ -456,14 +456,9 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor \
     libavservices_minijail \
     libavservices_minijail_vendor \
     libavservices_minijail.vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
